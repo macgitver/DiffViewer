@@ -1,3 +1,6 @@
 [submodule "3rd/libHeaven"]
 	path = 3rd/libHeaven
 	url = git@github.com:/macgitver/libHeaven.git
+[submodule "3rd/libDiffViews"]
+	path = 3rd/libDiffViews
+	url = git@github.com:/macgitver/libDiffViews.git
