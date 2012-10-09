@@ -1,7 +1,7 @@
 
 PROJECT( DiffViewer )
 
-QT_PREPARE( Core Gui Widgets )
+QT_PREPARE( Core Gui Widgets Main )
 
 INCLUDE_DIRECTORIES(
     ${HEAVEN_SOURCE_DIR}
