@@ -14,6 +14,11 @@ Ui MainWindowActions {
         _ConnectTo      onFileOpen();
     };
 
+    Action SettingsColors {
+        Text            "&Colors";
+        _ConnectTo      onSettingsColors();
+    };
+
     Menu File {
         Text            "&File";
 
@@ -22,8 +27,15 @@ Ui MainWindowActions {
         Action          FileQuit;
     };
 
+    Menu Settings {
+        Text            "&Settings";
+
+        Action          SettingsColors;
+    };
+
     MenuBar Main {
         Menu            File;
+        Menu            Settings;
     };
 
 };

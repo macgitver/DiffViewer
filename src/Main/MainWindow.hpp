@@ -14,6 +14,7 @@ public:
 
 private slots:
     void onFileOpen();
+    void onSettingsColors();
 
 private:
     void setupUi();
