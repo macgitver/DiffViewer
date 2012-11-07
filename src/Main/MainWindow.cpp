@@ -40,5 +40,12 @@ void MainWindow::setupUi()
 
     resize( 1000, 700 );
 
+    Heaven::ColorManager::self().addSchemaFromFile(
+        QLatin1String( "Default" ),
+        QLatin1String( ":/Default.hcs" ) );
+
+    Heaven::ColorManager::self().setActiveSchema(
+        QLatin1String( "Default" ) );
+
 //    Heaven::ColorManager::self().initialize();
 }

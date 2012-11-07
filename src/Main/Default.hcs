@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HCS Version="1">
+    <Group Id="General" Name="General">
+        
+    </Group>
+    <Group Id="DiffViews" Name="Diff Views">
+        <Group Id="RawDiffViewer" Name="Raw diff Viewer">
+            <Color Id="Background" Active="#FFFFFF" Inactive="#FFFFFF" Disabled="#CFCFCF"
+                   Display="Background"/>
+            <Color Id="NormalText" Active="#000000" Inactive="#000000" Disabled="#000000"
+                   Display="Text"/>
+        </Group>
+    </Group>
+</HCS>
